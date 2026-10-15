@@ -1,12 +1,12 @@
 name: Hello Template
 
-on:
-  workflow_call:
-    inputs:
-      username:
-        description: "Nom de la personne à saluer"
-        required: true
-        type: string
+#on:
+#  workflow_call:
+ #   inputs:
+  #    username:
+   #     description: "Nom de la personne à saluer"
+    #    required: true
+     #   type: string
 
 jobs:
   say-hello:
